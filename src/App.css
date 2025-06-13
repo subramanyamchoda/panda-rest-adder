@@ -1,0 +1,9 @@
+body,
+html {
+  background-image: url("navbar.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
