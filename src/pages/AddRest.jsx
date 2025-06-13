@@ -84,18 +84,15 @@ const AddRest = () => {
     formData.append('name', restaurant.name);
     formData.append('address', restaurant.address);
     restaurant.images.forEach(img => formData.append('images', img));
-
+const token = localStorage.getItem("token");
     try {
-       const response = await axios.post(
-        'https://panda-rest-server.onrender.com/restaurant/send',
-        formData,
-        {
-          headers: {
-            "Authorization": `Bearer ${token}`,
-            "Content-Type": "multipart/form-data"
-          }
-        }
-      );
+       const response = await axios.post('https://panda-rest-server.onrender.com/restaurant/send', formData, {
+  headers: {
+    "Authorization": `Bearer ${token}`,
+    "Content-Type": "multipart/form-data"
+  }
+});
+
 
 
       setSuccess(response.data.message);
