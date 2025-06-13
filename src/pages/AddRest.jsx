@@ -13,7 +13,6 @@ const AddRest = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
-  const token = localStorage.getItem("token");
 
   const handleMultiImageChange = (e, setImageState, setPreviewState, setErrorState) => {
     setErrorState(null);
@@ -84,15 +83,12 @@ const AddRest = () => {
     formData.append('name', restaurant.name);
     formData.append('address', restaurant.address);
     restaurant.images.forEach(img => formData.append('images', img));
-const token = localStorage.getItem("token");
-    try {
-       const response = await axios.post('https://panda-rest-server.onrender.com/restaurant/send', formData, {
-  headers: {
-    "Authorization": `Bearer ${token}`,
-    "Content-Type": "multipart/form-data"
-  }
-});
 
+    try {
+      const response = await axios.post('https://panda-rest-server.onrender.com/restaurant/send', formData, {
+          headers: { 'Content-Type': 'multipart/form-data' },
+          withCredentials: true, // ✅ necessary for cookies to be included
+        });
 
 
       setSuccess(response.data.message);
@@ -125,10 +121,10 @@ const token = localStorage.getItem("token");
 
     try {
       await axios.post('https://panda-rest-server.onrender.com/tables/send', formData, {
-                 headers: {
-            "Authorization": `Bearer ${token}`,
-            "Content-Type": "multipart/form-data"
-          }
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        },
+        withCredentials: true,
       });
 
       alert('Table added!');
