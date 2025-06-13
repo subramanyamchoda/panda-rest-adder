@@ -10,31 +10,34 @@ const Login = ({ setSender }) => {
   const navigate = useNavigate();
 
   const handleLoginSuccess = async (credentialResponse) => {
-    try {
-      const { credential } = credentialResponse;
+  try {
+    const { credential } = credentialResponse;
 
-      const { data } = await axios.post(
-        "https://panda-rest-server.onrender.com/sender/login",
-        { token: credential },
-        { withCredentials: true }
-      );
+    const { data } = await axios.post(
+      "https://panda-rest-server.onrender.com/sender/login",
+      { token: credential }
+    );
 
-      const formattedSender = {
-        name: data.sender.name,
-        email: data.sender.email,
-        avatar: data.sender.avatar || "https://via.placeholder.com/150",
-        id: data.sender._id,
-      };
+    const token = data.token; // Adjust if data structure differs
+    localStorage.setItem("token", token);
 
-      setSender(formattedSender);
-      localStorage.setItem("sender", JSON.stringify(formattedSender));
-      localStorage.setItem("senderId", formattedSender.id);
+    const formattedSender = {
+      name: data.sender.name,
+      email: data.sender.email,
+      avatar: data.sender.avatar || "https://via.placeholder.com/150",
+      id: data.sender._id,
+    };
 
-      navigate("/dashboard");
-    } catch (error) {
-      console.error("Login failed:", error.response?.data || error.message);
-    }
-  };
+    setSender(formattedSender);
+    localStorage.setItem("sender", JSON.stringify(formattedSender));
+    localStorage.setItem("senderId", formattedSender.id);
+
+    navigate("/dashboard");
+  } catch (error) {
+    console.error("Login failed:", error.response?.data || error.message);
+  }
+};
+
 
   const handleLoginFailure = () => {
     console.error("Google login failed");
