@@ -14,9 +14,13 @@ const Login = ({ setSender }) => {
     const { credential } = credentialResponse;
 
     const { data } = await axios.post(
-      "https://panda-rest-server.onrender.com/sender/login",
-      { token: credential }
-    );
+  "https://panda-rest-server.onrender.com/sender/login",
+  { token: credential },
+  {
+    withCredentials: true // ✅ required for cookies
+  }
+);
+
 
     const token = data.token; // Adjust if data structure differs
     localStorage.setItem("token", token);
