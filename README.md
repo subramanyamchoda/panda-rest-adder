@@ -7,7 +7,7 @@ This is the management dashboard where restaurant owners and admins can create a
 
 ## 🔗 Live Links
 
-* 🧑‍🏠 **Admin Portal**: [https://pandarestadder.vercel.app/](https://pandarestadder.vercel.app/)
+* 🧑‍🏠 **Admin Portal**: [[https://pandarestadder.vercel.app/](https://pandarestadder.vercel.app/)](https://pandarestaurantsadder.vercel.app/)
 * 👥 **User Portal**: [https://pandarestaurantsuser.vercel.app/](https://pandarestaurantsuser.vercel.app/)
 * ⚙️ **Backend API**: [https://panda-rest-server.onrender.com/](https://panda-rest-server.onrender.com/)
 * 👤 **GitHub Repositories**:
