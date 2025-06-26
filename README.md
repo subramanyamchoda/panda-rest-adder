@@ -45,6 +45,20 @@ This is the management dashboard where restaurant owners and admins can create a
 
 ---
 
+<p align="center">
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder1.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder2.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder3.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder4.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder5.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder6.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder7.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder8.png" width="400"/>
+  <img src="https://subramanyamchoda.vercel.app/pandarestadder9.png" width="400"/>
+
+</p>
+
+---
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
