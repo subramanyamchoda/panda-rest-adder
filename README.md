@@ -44,7 +44,7 @@ This is the management dashboard where restaurant owners and admins can create a
 | Deployment | Vercel (Frontend), Render (Backend) |
 
 ---
-
+## 🚀 Project Images
 <p align="center">
   <img src="https://subramanyamchoda.vercel.app/pandarestadder1.png" width="400"/>
   <img src="https://subramanyamchoda.vercel.app/pandarestadder2.png" width="400"/>
@@ -59,6 +59,8 @@ This is the management dashboard where restaurant owners and admins can create a
 </p>
 
 ---
+
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
