@@ -5,14 +5,6 @@ This is the management dashboard where restaurant owners and admins can create a
 
 ---
 
-![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-adder&style=flat-square)
-![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-adder&style=flat-square)
-# 🏢 Panda Restaurants – Admin Portal  
-![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-adder&style=flat-square)
-![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-user&style=flat-square)
-
-
-
 ## 🔗 Live Links
 
 * 🧑‍🏠 **Admin Portal**: https://pandarestaurantsadder.vercel.app/
