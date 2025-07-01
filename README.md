@@ -4,7 +4,6 @@ Welcome to the **Admin Portal** of **Panda Restaurants** 🧑‍🏠🐼
 This is the management dashboard where restaurant owners and admins can create and control restaurants, tables, and monitor bookings in real time. Built using the powerful **MERN stack**, this application supports secure login, email alerts, and a modern, responsive UI.
 
 ---
-![Repo Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/subramanyamchoda/panda-rest-adder&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Views&edge_flat=false)
 # 🏢 Panda Restaurants – Admin Portal  
 ![Repo Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/subramanyamchoda/panda-rest-adder&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Views&edge_flat=false)
 
