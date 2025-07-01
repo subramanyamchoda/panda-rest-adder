@@ -4,9 +4,13 @@ Welcome to the **Admin Portal** of **Panda Restaurants** 🧑‍🏠🐼
 This is the management dashboard where restaurant owners and admins can create and control restaurants, tables, and monitor bookings in real time. Built using the powerful **MERN stack**, this application supports secure login, email alerts, and a modern, responsive UI.
 
 ---
+
+![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-adder&style=flat-square)
 ![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-adder&style=flat-square)
 # 🏢 Panda Restaurants – Admin Portal  
 ![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-adder&style=flat-square)
+![Repo Views](https://komarev.com/ghpvc/?username=subramanyamchoda&repo=panda-rest-user&style=flat-square)
+
 
 
 ## 🔗 Live Links
